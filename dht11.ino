@@ -6,9 +6,6 @@
 
 DHT dht(DHTPIN, DHTYPE);
 
-float temp = dht.readTemperature();
-float hum = dht.readHumidity();
-
 void setup()
 {
   Serial.begin(9600);
@@ -17,13 +14,10 @@ void setup()
 
 void loop()
 {
-  float *tempee;
-  float *humm;
-
-  tempee = &temp;
-  humm = &hum;
+  float temp = dht.readTemperature();
+  float umi = dht.readHumidity();
  
-  if(isnan(tempee) || isnan(humm))
+  if(isnan(temp) || isnan(umi))
   {
     Serial.println("Falha na leitura do sensor!");
   }
@@ -32,7 +26,7 @@ void loop()
     Serial.print("Temperatura: ");
     Serial.println(temp);
     Serial.print("Umidade: ");
-    Serial.println(humm);
+    Serial.println(umi);
     //delay(2000);
   }
 }
