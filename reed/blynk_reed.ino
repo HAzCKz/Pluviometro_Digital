@@ -19,7 +19,7 @@ void VirtualWrite()
 
   if (estado != ultimo_estado)
   {
-    res = res + 1;
+    res = res + 0.25;
     Serial.println(res);
   }
   else
