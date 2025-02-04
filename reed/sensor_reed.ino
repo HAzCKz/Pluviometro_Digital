@@ -2,9 +2,9 @@
 #define sensor 12
 #define Led 32
 
-int res;
-int estado;
-int ultimo_estado;
+int res = 0;
+int estado = 0;
+int ultimo_estado = 0;
 
 void setup() {
   pinMode(sensor, INPUT);
