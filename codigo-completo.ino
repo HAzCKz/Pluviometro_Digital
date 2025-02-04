@@ -1,6 +1,6 @@
 #define BLYNK_PRINT Serial
 #define BLYNK_TEMPLATE_ID "id"
-#define BLYNK_TEMPLATE_NAME "DHT11"
+#define BLYNK_TEMPLATE_NAME "nome"
 #define BLYNK_AUTH_TOKEN "token"
 
 #include <BlynkSimpleEsp32.h>
