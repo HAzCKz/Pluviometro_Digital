@@ -9,9 +9,9 @@
 
 BlynkTimer timer;
 
-int res;
-int estado;
-int ultimo_estado;
+int res = 0;
+int estado = 0;
+int ultimo_estado = 0;
 
 void VirtualWrite()
 {
