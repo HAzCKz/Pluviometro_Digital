@@ -15,9 +15,9 @@ DHT dht(DHTPIN, DHTYPE);
 
 BlynkTimer timer;
 
-int res;
-int estado;
-int ultimo_estado;
+double res = 0;
+int estado = 0;
+int ultimo_estado = 0;
 
 void VirtualWrite()
 {
@@ -44,7 +44,7 @@ void VirtualWrite()
 
   if (estado != ultimo_estado)
   {
-    res = res + 1;
+    res = res + 0.25; /// Volume precipitado
     Serial.println(res);
   }
   else
