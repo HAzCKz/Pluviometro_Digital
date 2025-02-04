@@ -3,7 +3,7 @@
 #define BLYNK_TEMPLATE_NAME "nome"
 #define BLYNK_AUTH_TOKEN "token"
 
-#define sensor 13
+#define sensor 12
 
 #include <BlynkSimpleEsp32.h>
 
