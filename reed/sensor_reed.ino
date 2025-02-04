@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define sensor 13
+#define sensor 12
 #define Led 32
 
 int res;
@@ -36,7 +36,7 @@ void contar()
 {
   if (estado != ultimo_estado)
   {
-    res = res + 1;
+    res = res + 0.25;
     Serial.println(res);
     delay(350);
   }
