@@ -8,14 +8,20 @@
 #include <stdio.h>
 
 #define DHTYPE DHT11
-#define DHTPIN A14
+#define DHTPIN A14 // Pino 13 no ESP
+#define sensor 12 // Pino 12 no ESP
 
 DHT dht(DHTPIN, DHTYPE);
 
 BlynkTimer timer;
 
+int res;
+int estado;
+int ultimo_estado;
+
 void VirtualWrite()
 {
+  // DHT11 CODE 
   double temp = dht.readTemperature();
   double umi = dht.readHumidity();
 
@@ -32,6 +38,25 @@ void VirtualWrite()
   }
   Blynk.virtualWrite(V0, temp);
   Blynk.virtualWrite(V5, umi);
+
+  // REED CODE
+  estado = digitalRead(sensor);
+
+  if (estado != ultimo_estado)
+  {
+    res = res + 1;
+    Serial.println(res);
+  }
+  else
+  {
+    Serial.println(res);
+  }
+
+    ultimo_estado = estado;
+
+    Blynk.virtualWrite(V10, res);
+}
+  
 }
 
 void setup() 
