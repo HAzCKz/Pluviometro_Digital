@@ -56,13 +56,13 @@ void VirtualWrite()
 
     Blynk.virtualWrite(V10, res);
 }
-  
-}
+
 
 void setup() 
 {
   Serial.begin(9600);
   dht.begin();
+  pinMode(sensor, INPUT);
   Blynk.begin(BLYNK_AUTH_TOKEN, "ssid", "senha", "blynk.cloud", 80);
   timer.setInterval(1000L, VirtualWrite);
 }
