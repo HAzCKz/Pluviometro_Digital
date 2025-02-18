@@ -22,7 +22,7 @@ Para exemplificar como é feita tal medição, suponha que o telhado de determin
 
 ## Metodologia
 
-<p align = justify>A metodologia de pesquisa utilizada neste trabalho teve um caráter exploratório e consistiu no levantamento bibliogŕafico na área de internet das coisas (Blynk), dispositivos pluviométricos, desenvolvimento de peças 3D e mudanças climáticas. A plataforma Blynk (Figura 4) permite a prototipagem, implantação e gerenciamento remoto de dispositivos eletrônicos. Desta forma, criou-se uma aplicação web capaz de monitorar em tempo real a temperatura, umidade relativa do ar e a precipitação do local.</p>
+<p align = justify> A metodologia de pesquisa utilizada neste trabalho teve um caráter exploratório e consistiu no levantamento bibliogŕafico na área de internet das coisas (Blynk), dispositivos pluviométricos, desenvolvimento de peças 3D e mudanças climáticas. A plataforma Blynk (Figura 4) permite a prototipagem, implantação e gerenciamento remoto de dispositivos eletrônicos. Desta forma, criou-se uma aplicação web capaz de monitorar em tempo real a temperatura, umidade relativa do ar e a precipitação do local.</p>
 <p>A calibração da báscula foi feita em laboratório e fez-se uso de uma proveta e um becker para descobrir qual é o volume de água necessário para que a báscula realize o movimento de giro completo. Por meio do método indutivo de calibração, analisou-se quantos ml restavam no becker após 100ml serem despejados sob a área de coleta</p>
 
 <div align = center>
@@ -30,7 +30,44 @@ Para exemplificar como é feita tal medição, suponha que o telhado de determin
 <p>Figura 4 - Aplicação web Blynk</p>
 </div>
 
+## Resultados 
 
+<p align = justify> Os equipamentos do âmbito profissional apresentam elevados custos, podendo variar de R$ 700,00 até mais de R$ 10.000,00 dependendo da sua forma de transmissão e tratamento dos dados, tornando-se assim, pouco acessível à compreensão climática a pequenos agricultores e a população em geral. A Tabela 1 mostra uma estimativa dos valores gastos ao longo de todo o projeto considerando os custos desde o seu princípio.</p>
+
+<table>
+  <caption>
+    Tabela 1 - Custos dos materiais utilizados para construção do projeto
+  </caption>
+  <tr>
+    <th>Componentes</th>
+    <th>Quantidade</th>
+    <th>Origem</th>
+    <th>Valor Total</th>
+  </tr>
+
+  <tr>
+    <td>Reed Switch</td>
+    <td>10</td>
+    <td>Mercado virtual</td>
+    <td>R$ 20,00</td>
+  </tr>
+
+  <tr>
+    <td>Jumpers</td>
+    <td>20</td>
+    <td>Mercado virtual</td>
+    <td>R$ 5,80</td>
+  </tr>
+
+  <tr>
+    <td>DHT11</td>
+    <td>1</td>
+    <td>Mercado virtual</td>
+    <td>R$ 8,70</td>
+  </tr>
+
+  <tr></tr>
+</table>
 
 
 
