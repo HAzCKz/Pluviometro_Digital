@@ -6,13 +6,17 @@ Para exemplificar como é feita tal medição, suponha que o telhado de determin
 <p align = center>Figura 1 - Protótipos estruturais <br> Disponível em: <a href = "https://www.thingiverse.com/thing:2846373/files">Thingiverse</a></p>
 
 ## Funcionamento
-<p align = justify> Para o desenvolvimento do projeto, foi idealizado um pluviômetro automático do tipo basculante devido a sua construção simples e de baixo custo quando comparada a equipamentos profissionais. Com uma báscula em sua construção, dipositivo semelhante a uma gangorra em miniatura, a água da chuva entra pelo funil e cai em um dos lados da báscula, fazendo com que a mesma realize movimentos alternados de um lado para o outro, como pode ser visto na figura 2. Sendo assim, os movimentos realizados pelo dispositivo são registrados por meio de um sensor eletromagnético (Reed Switch) e transmitidos a um microcontrolador (ESP-32).</p>
+<p align = justify> Para o desenvolvimento do projeto, foi idealizado um pluviômetro automático do tipo basculante devido a sua construção simples e de baixo custo quando comparada a equipamentos profissionais. Com uma báscula em sua construção, dipositivo semelhante a uma gangorra em miniatura, a água da chuva entra pelo funil e cai em um dos lados da báscula, fazendo com que a mesma realize movimentos alternados de um lado para o outro, como pode ser visto na Figura 2. Sendo assim, os movimentos realizados pelo dispositivo são registrados por meio de um sensor eletromagnético (Reed Switch) e transmitidos a um microcontrolador (ESP-32).</p>
 
 <img alt = "Funcionamento da báscula" src = "https://github.com/HAzCKz/Pluviometro_Digital/blob/main/img/figura2.png"/>
 <p align = center> Figura 2 - Funcionamento do pluviômetro <br> Disponível em: <a href = "https://eventoscientificos.ifsc.edu.br/index.php/sepei/sepei2014/paper/viewFile/465/688">Intercomparação Laboratorial de Pluviômetros de Báscula.</a></p>
 
 ## Materiais
-<p align = justify> Os materiais utilizados têm como objetivo baratear o projeto e torná-lo sustentável. Diante disso, a montagem do circuito de aquisição e transmissão dos dados é composta por um microcontrolador **ESP32** do modelo DOIT ESP32 DEVKIT V1, um sensor de temperatura **DHT11**, um sensor **Reed Switch**, e uma **placa solar** para alimentar o microcontrolador. A montagem do circuito pode ser vista na **figura 3**. A parte estrutural do pluviômetro foi construída fazendo uso de peças 3D de um projeto incabado e materiais reutilizados.</p>
+<p align = justify> Os materiais utilizados têm como objetivo baratear o projeto e torná-lo sustentável. Diante disso, a montagem do circuito de aquisição e transmissão dos dados é composta por um microcontrolador <b>ESP32</b> do modelo DOIT ESP32 DEVKIT V1, um sensor de temperatura <b>DHT11</b>, um sensor <b>Reed Switch</b>, e uma <b>Placa Solar</b> para alimentar o microcontrolador. A montagem do circuito pode ser vista na <b>Figura 3</b>. A parte estrutural do pluviômetro foi construída fazendo uso de peças 3D de um projeto incabado e materiais reaproveitados.</p>
 
+<div align = center>
+<img alt = "Circuito elétrico" src = "https://github.com/HAzCKz/Pluviometro_Digital/blob/main/img/figura3.PNG" align = center/>
+<p>Figura 3 - Circuito elétrico</p>
+</div>
 
 
