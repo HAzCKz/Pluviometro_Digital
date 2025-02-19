@@ -46,6 +46,27 @@ Para exemplificar como é feita tal medição, suponha que o telhado de determin
   </tr>
 
   <tr>
+    <td>Placa Solar</td>
+    <td>1</td>
+    <td>Mercado Virtual</td>
+    <td>R$ 120,00</td>
+  </tr>
+
+  <tr>
+    <td>Bateria recarregável</td>
+    <td>2</td>
+    <td>Mercado Virtual</td>
+    <td>R$ 56,00</td>
+  </tr>
+
+  <tr>
+    <td>ESP32</td>
+    <td>1</td>
+    <td>Mercado virtual</td>
+    <td>R$32,00</td>
+  </tr>
+
+  <tr>
     <td>Reed Switch</td>
     <td>10</td>
     <td>Mercado virtual</td>
@@ -53,10 +74,10 @@ Para exemplificar como é feita tal medição, suponha que o telhado de determin
   </tr>
 
   <tr>
-    <td>Jumpers</td>
-    <td>20</td>
-    <td>Mercado virtual</td>
-    <td>R$ 5,80</td>
+    <td>Rolamento(3,4,8)</td>
+    <td>5</td>
+    <td>Mercado Virtual</td>
+    <td>R$ 19,00</td>
   </tr>
 
   <tr>
@@ -66,7 +87,41 @@ Para exemplificar como é feita tal medição, suponha que o telhado de determin
     <td>R$ 8,70</td>
   </tr>
 
-  <tr></tr>
+  <tr>
+    <td>Jumpers</td>
+    <td>20</td>
+    <td>Mercado virtual</td>
+    <td>R$ 5,80</td>
+  </tr>
+  
+  <tr>
+    <td>Imã</td>
+    <td>2</td>
+    <td>Mercado Virtual</td>
+    <td>R$ 5,00</td>
+  </tr>
+
+  <tr>
+    <td>Peças 3D</td>
+    <td>7</td>
+    <td>Impressora local</td>
+    <td>R$ 0,00</td>
+  </tr>
+
+  <tr>
+    <td>Suporte de ferro</td>
+    <td>1</td>
+    <td>Reciclagem</td>
+    <td>R$ 0,00</td>
+  </tr>
+
+  <tr>
+    <td>Caixa de ferro</td>
+    <td>1</td>
+    <td>Reciclagem</td>
+    <td>R$ 0,00</td>
+  </tr>
+  
 </table>
 
 
