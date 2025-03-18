@@ -32,7 +32,7 @@ Para exemplificar como é feita tal medição, suponha que o telhado de determin
 
 ## Resultados 
 
-<p align = justify> Os equipamentos do âmbito profissional apresentam elevados custos, podendo variar de R$ 700,00 até mais de R$ 10.000,00 dependendo da sua forma de transmissão e tratamento dos dados, tornando-se assim, pouco acessível à compreensão climática a pequenos agricultores e a população em geral. A Tabela 1 mostra uma estimativa dos valores gastos ao longo de todo o projeto considerando os custos desde o seu princípio.</p>
+<p align = justify> Os equipamentos do âmbito profissional apresentam elevados custos, podendo variar de R$ 700,00 até mais de R$ 10.000,00 dependendo da sua forma de transmissão e tratamento dos dados, tornando-se assim, pouco acessível a compreensão climática a pequenos agricultores e a população em geral. A Tabela 1 mostra uma estimativa dos valores gastos ao longo de todo o projeto considerando os custos desde o seu princípio.</p>
 
 | Componentes          | Quantidade | Origem          | Valor Total |
 |----------------------|------------|-----------------|-------------|
@@ -48,6 +48,18 @@ Para exemplificar como é feita tal medição, suponha que o telhado de determin
 | Suporte de ferro     | 1          | Reciclagem      | R$ 0,00     |
 | Caixa de ferro       | 1          | Reciclagem      | R$ 0,00     |
 
+| Custo Total |
+|-------------|
+| R$ 266,50 |
+
+<p align = justify> O trabalho visa baratear o custo do equipamento sem que haja perda em sua precisão e eficiência. Com isso, nota-se que o valor final está abaixo quando comparado a outros produtos disponíveis no mercado, tornando-se assim, mais acessível à população de uma maneira geral.</p>
+
+## Conclusão 
+<p align = justify> O desenvolvimento de um pluviômetro automático basculante apresentado neste documento emerge como uma iniciativa promissora no campo da coleta de dados climáticos. A seleção cuidadosa de materiais, incluindo o uso do filamento PETG, e a incorporação de componentes reutilizados, apresentam uma abordagem sustentável e economicamente viável na construção do pluviômetro. Para trabalhos futuros visa implementar outros equipamentos que capturem outras variáveis climáticas, caracterizando-se uma estação meteorológica.</p>
+
+Esse projeto foi desenvolvido por Pedro Augusto, Lucas Queiroz, Rafael Souza e Miguel Potinatti com apoio do Instituto Federal de Educação, Ciência e Tecnologia de São Paulo.
+
+<img src = "https://profandreluisbelini.wordpress.com/wp-content/uploads/2015/03/logo_ifsp.png"/>
   
 
 
